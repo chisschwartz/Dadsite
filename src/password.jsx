@@ -6,7 +6,7 @@ function Password() {
 
     return (
         <div className='passwordContainer'>
-        <button className="button" onClick={() => navigate('joeschwartz')}>
+        <button className="enterButton" onClick={() => navigate('joeschwartz')}>
             click here
         </button>
         </div>

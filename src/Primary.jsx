@@ -1,8 +1,9 @@
 import './Primary.css'
-import { useState } from 'react'
+import { useNavigate } from 'react-router-dom';
 
 function Primary() {
-    const [count, setCount] = useState(0)
+    const navigate = useNavigate();
+
     
     return(
     <>
@@ -21,10 +22,10 @@ function Primary() {
 
         </div>
 
-        <div className='secretButton'>
-            <button onClick={() => setCount((count) => count + 1)}>
-                click to count: {count}
-            </button>
+        <div className='primaryButton'>
+        <button className="secretButton" onClick={() => navigate('mydad')}>
+            click here
+        </button>
         </div>
     </>
     )
