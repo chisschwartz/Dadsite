@@ -1,16 +1,27 @@
-import './password.css'
+import './password.css';
+import { useNavigate } from 'react-router-dom';
 
 function Password() {
-    
-    return(
-    
-    <div class="passwordContainer">
-        <form action="" method="POST">
-            <label>Password <input type="text" name="password"></input></label>
-            <button>Submit</button>
-        </form>
-    </div>
+    const navigate = useNavigate();
+
+    return (
+        <div className='passwordContainer'>
+        <button className="button" onClick={() => navigate('joeschwartz')}>
+            click here
+        </button>
+        </div>
     )
+
+    // const handleRedirect = () => {
+    //     navigate('/joeschwartz');
+    // }
+    
+    // return(
+    
+    // <div className="passwordContainer">
+    //         <button onClick={handleRedirect}>Submit</button>
+    // </div>
+    // )
 }
 
 export default Password
