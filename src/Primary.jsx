@@ -9,7 +9,7 @@ function Primary() {
     <>
         <div className='banner'>
             <h1>
-                All About Joe Schwartz
+                Joe Schwartz Rocks!!!
             </h1>
         </div>
         
