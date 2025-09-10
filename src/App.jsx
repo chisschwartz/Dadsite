@@ -5,23 +5,23 @@ import {
   Navigate
 } from "react-router-dom";
 import Primary from './Primary';
-import Password from './password';
+// import Password from './password';
 import Secret from './Secret';
 
 function App() {
   return (
     <>
         <Routes>
-          <Route
+          {/* <Route
             path="/"
             element={<Password />}
-            />
+            /> */}
             <Route
-            path="/joeschwartz"
+            path="/"
             element={<Primary />}
             />
             <Route
-            path="/joeschwartz/mydad"
+            path="/mydad"
             element={<Secret />}
             />
         </Routes>
