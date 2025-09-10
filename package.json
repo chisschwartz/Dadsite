@@ -9,12 +9,6 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
-  {
-  "scripts": {
-    "build": "vite build",
-    "preview": "vite preview"
-  }
-}
   "dependencies": {
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
