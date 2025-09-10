@@ -1,6 +1,6 @@
 import './Primary.css'
 import { useNavigate } from 'react-router-dom';
-import arrow from './assets/rightarrow.png'
+
 
 function Primary() {
     const navigate = useNavigate();
