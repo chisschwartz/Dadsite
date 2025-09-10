@@ -17,7 +17,7 @@ function App() {
             element={<Password />}
             /> */}
             <Route
-            path="/"
+            path="/Dadsite"
             element={<Primary />}
             />
             <Route
