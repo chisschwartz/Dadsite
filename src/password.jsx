@@ -11,17 +11,6 @@ function Password() {
         </button>
         </div>
     )
-
-    // const handleRedirect = () => {
-    //     navigate('/joeschwartz');
-    // }
-    
-    // return(
-    
-    // <div className="passwordContainer">
-    //         <button onClick={handleRedirect}>Submit</button>
-    // </div>
-    // )
 }
 
 export default Password
